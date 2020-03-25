@@ -41,6 +41,6 @@ def Dijkstra(Graph, start, inf):
                 dist[neighbour_ver[0]] = alt
                 prev[neighbour_ver[0]] = u
 
-#return dist
+#return dist - list of distances from start vertex and prev - list of vertexes with "previous vertex in path"
     return dist, prev
 
